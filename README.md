@@ -1,5 +1,7 @@
 # ClipTrim 1.1
 
+See [Releases](https://github.com/nullifiedharp/ClipTrim/tree/main/Releases) for compiled releases.
+
 Simple desktop video trimmer and cutter. Split a video into parts, remove the ones you don't want, and export the rest joined together.
 
 ## Install

@@ -13,6 +13,11 @@ AppVerName={#AppName} {#AppVersion}
 DefaultDirName={autopf}\{#AppName}
 DefaultGroupName={#AppName}
 DisableProgramGroupPage=yes
+LicenseFile=LICENSE
+AppPublisher=NullHarp
+AppPublisherURL=https://github.com/nullifiedharp/ClipTrim
+AppSupportURL=https://github.com/nullifiedharp/ClipTrim/issues
+AppCopyright=Copyright (C) 2026 NullHarp - GPLv3
 ; Installs for the current user without admin; the dialog offers "all users" too.
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
@@ -39,6 +44,8 @@ Type: filesandordirs; Name: "{app}\_internal"
 
 [Files]
 Source: "dist\ClipTrim\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "LICENSE"; DestDir: "{app}"; DestName: "LICENSE.txt"; Flags: ignoreversion
+Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#AppName}"; Filename: "{app}\{#AppExe}"

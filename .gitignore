@@ -1,0 +1,19 @@
+# Build output
+build/
+dist/
+installer/
+*.spec
+ffmpeg.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
